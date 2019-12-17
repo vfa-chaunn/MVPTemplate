@@ -2,6 +2,12 @@ When you decide to use MVP architecture in your project, it is very tired create
 
 ## How to install
 
+### Download or clone file
+- Go to folder MVP Template.
+![](/assets/MVPFile.png)
+
+Message:
+
 ### Using script (easy)
 Only need execute this command in terminal:
 ```swift
