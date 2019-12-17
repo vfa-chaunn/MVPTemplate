@@ -3,10 +3,11 @@ When you decide to use MVP architecture in your project, it is very tired create
 ## How to install
 
 ### Download or clone file
-- Go to folder MVP Template.
-![](/assets/MVPFile.png)
 
-Message:
+- Go to folder MVP Template.
+
+### Folder MVPTemplate
+![](/assets/MVPFile.png)
 
 ### Using script (easy)
 Only need execute this command in terminal:
