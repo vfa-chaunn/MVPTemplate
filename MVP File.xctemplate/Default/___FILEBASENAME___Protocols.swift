@@ -1,6 +1,6 @@
 import Foundation
 
-//MARK: Wireframe -
+//MARK: Router -
 protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
 
 }
