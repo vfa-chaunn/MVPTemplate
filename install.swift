@@ -1,11 +1,3 @@
-//
-//  main.swift
-//  InstallVIPERTemplate
-//
-//  Created by Juanpe Catalán on 17/02/2017.
-//  Copyright © 2017 Juanpe Catalán. All rights reserved.
-//
-
 import Foundation
 
 let templateName = "MVP File.xctemplate"
