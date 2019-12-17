@@ -43,17 +43,8 @@
 			<string>static</string>
 		</dict>
 		<dict>
-			<key>Identifier</key>
+			<key>Default</key>
 			<string>Default</string>
-			<key>Name</key>
-			<string>Divide Interactor protocol (Input &amp; Output)</string>
-			<key>Description</key>
-			<string>Divide Interactor protocol (Input &amp; Output)</string>
-			<!-- <key>Type</key>
-			<string>checkbox</string>
-			<key>Default</key> -->
-			<!-- <string>true</string>
-			<key>NotPersisted</key> -->
 			<true/>
 		</dict>
 	</array>
