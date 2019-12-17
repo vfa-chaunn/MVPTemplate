@@ -8,6 +8,7 @@ Only need execute this command in terminal:
 sudo swift install.swift
 ```
 Message:
+
 ![](/assets/successed.png)
 
 If all it's ok you now could find your template in Xcode.
@@ -18,6 +19,9 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 
 ## Easy to use
 ![](/assets/wizard.png)
+
+## Result
+![](/assets/result.png)
 
 ## MVP diagram overview
 ![Preview](/assets/mvp_diagram.png)
