@@ -3,12 +3,12 @@ When you decide to use MVP architecture in your project, it is very tired create
 
 ## MVP template contains
 
-* Router: to create View
+* Router: use to create View and process navigation controller.
 * ViewController: file controller.
 * Protocol: file contains protocol.
 * Present: file use to process logic and data.
 
-## How to install
+## Installation
 
 ### Download or clone file
 
