@@ -42,10 +42,6 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
-		<dict>
-			<key>Default</key>
-			<string>Default</string>
-		</dict>
 	</array>
 	<key>Template Author</key>
 	<string>Nguyen Ngoc Chau - @Vitalify</string>
