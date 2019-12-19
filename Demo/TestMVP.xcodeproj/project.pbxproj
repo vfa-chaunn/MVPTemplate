@@ -3,22 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C1384FAA8D452DCFCFF5A89 /* Pods_TestMVP_TestMVPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F51CC5CBDDF0103215D739 /* Pods_TestMVP_TestMVPUITests.framework */; };
 		5EA07E5AC07EAE56DDE0C0F7 /* Pods_TestMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D983258C503ADFCBF186BF6 /* Pods_TestMVP.framework */; };
-		B53C7AB223A8ACA400EA40D8 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AAD23A8ACA400EA40D8 /* RegisterPresenter.swift */; };
-		B53C7AB323A8ACA400EA40D8 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AAE23A8ACA400EA40D8 /* RegisterRouter.swift */; };
-		B53C7AB423A8ACA400EA40D8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AAF23A8ACA400EA40D8 /* RegisterViewController.swift */; };
-		B53C7AB523A8ACA400EA40D8 /* RegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AB023A8ACA400EA40D8 /* RegisterProtocols.swift */; };
-		B53C7AB623A8ACA400EA40D8 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53C7AB123A8ACA400EA40D8 /* RegisterViewController.xib */; };
-		B53C7AC723A8AEB900EA40D8 /* ForgotPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AC223A8AEB900EA40D8 /* ForgotPasswordPresenter.swift */; };
-		B53C7AC823A8AEB900EA40D8 /* ForgotPasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AC323A8AEB900EA40D8 /* ForgotPasswordRouter.swift */; };
-		B53C7AC923A8AEB900EA40D8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AC423A8AEB900EA40D8 /* ForgotPasswordViewController.swift */; };
-		B53C7ACA23A8AEB900EA40D8 /* ForgotPasswordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7AC523A8AEB900EA40D8 /* ForgotPasswordProtocols.swift */; };
-		B53C7ACB23A8AEB900EA40D8 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53C7AC623A8AEB900EA40D8 /* ForgotPasswordViewController.xib */; };
 		B559D14C23AB151700824D1F /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D14723AB151700824D1F /* LoginPresenter.swift */; };
 		B559D14D23AB151700824D1F /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D14823AB151700824D1F /* LoginRouter.swift */; };
 		B559D14E23AB151700824D1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D14923AB151700824D1F /* LoginViewController.swift */; };
@@ -33,13 +23,6 @@
 		B559D16223AB1C4200824D1F /* BookProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D15D23AB1C4200824D1F /* BookProtocols.swift */; };
 		B559D16323AB1C4200824D1F /* BookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B559D15E23AB1C4200824D1F /* BookViewController.xib */; };
 		B559D16623AB1CFA00824D1F /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D16523AB1CFA00824D1F /* BookEntity.swift */; };
-		B575FE4F23A9C457004ED8D8 /* SearchCityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE4A23A9C457004ED8D8 /* SearchCityPresenter.swift */; };
-		B575FE5023A9C457004ED8D8 /* SearchCityRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE4B23A9C457004ED8D8 /* SearchCityRouter.swift */; };
-		B575FE5123A9C457004ED8D8 /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE4C23A9C457004ED8D8 /* SearchCityViewController.swift */; };
-		B575FE5223A9C457004ED8D8 /* SearchCityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE4D23A9C457004ED8D8 /* SearchCityProtocols.swift */; };
-		B575FE5323A9C457004ED8D8 /* SearchCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B575FE4E23A9C457004ED8D8 /* SearchCityViewController.xib */; };
-		B575FE5723A9C5DA004ED8D8 /* SearchCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5523A9C5DA004ED8D8 /* SearchCityCell.swift */; };
-		B575FE5823A9C5DA004ED8D8 /* SearchCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B575FE5623A9C5DA004ED8D8 /* SearchCityCell.xib */; };
 		B575FE5F23A9CCC8004ED8D8 /* CirclePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5A23A9CCC8004ED8D8 /* CirclePresenter.swift */; };
 		B575FE6023A9CCC8004ED8D8 /* CircleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5B23A9CCC8004ED8D8 /* CircleRouter.swift */; };
 		B575FE6123A9CCC8004ED8D8 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5C23A9CCC8004ED8D8 /* CircleViewController.swift */; };
@@ -81,16 +64,6 @@
 		6AD3D96D1D01F47D345E3A72 /* Pods_TestMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7777AC1F0114657982BD4292 /* Pods-TestMVP-TestMVPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVP-TestMVPUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestMVP-TestMVPUITests/Pods-TestMVP-TestMVPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1101DE2CC19DE90D9AB5CBF /* Pods-TestMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVP.debug.xcconfig"; path = "Target Support Files/Pods-TestMVP/Pods-TestMVP.debug.xcconfig"; sourceTree = "<group>"; };
-		B53C7AAD23A8ACA400EA40D8 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
-		B53C7AAE23A8ACA400EA40D8 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
-		B53C7AAF23A8ACA400EA40D8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		B53C7AB023A8ACA400EA40D8 /* RegisterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProtocols.swift; sourceTree = "<group>"; };
-		B53C7AB123A8ACA400EA40D8 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		B53C7AC223A8AEB900EA40D8 /* ForgotPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPresenter.swift; sourceTree = "<group>"; };
-		B53C7AC323A8AEB900EA40D8 /* ForgotPasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRouter.swift; sourceTree = "<group>"; };
-		B53C7AC423A8AEB900EA40D8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		B53C7AC523A8AEB900EA40D8 /* ForgotPasswordProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordProtocols.swift; sourceTree = "<group>"; };
-		B53C7AC623A8AEB900EA40D8 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		B559D14723AB151700824D1F /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		B559D14823AB151700824D1F /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		B559D14923AB151700824D1F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -105,13 +78,6 @@
 		B559D15D23AB1C4200824D1F /* BookProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookProtocols.swift; sourceTree = "<group>"; };
 		B559D15E23AB1C4200824D1F /* BookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookViewController.xib; sourceTree = "<group>"; };
 		B559D16523AB1CFA00824D1F /* BookEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
-		B575FE4A23A9C457004ED8D8 /* SearchCityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityPresenter.swift; sourceTree = "<group>"; };
-		B575FE4B23A9C457004ED8D8 /* SearchCityRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityRouter.swift; sourceTree = "<group>"; };
-		B575FE4C23A9C457004ED8D8 /* SearchCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewController.swift; sourceTree = "<group>"; };
-		B575FE4D23A9C457004ED8D8 /* SearchCityProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityProtocols.swift; sourceTree = "<group>"; };
-		B575FE4E23A9C457004ED8D8 /* SearchCityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCityViewController.xib; sourceTree = "<group>"; };
-		B575FE5523A9C5DA004ED8D8 /* SearchCityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityCell.swift; sourceTree = "<group>"; };
-		B575FE5623A9C5DA004ED8D8 /* SearchCityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCityCell.xib; sourceTree = "<group>"; };
 		B575FE5A23A9CCC8004ED8D8 /* CirclePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePresenter.swift; sourceTree = "<group>"; };
 		B575FE5B23A9CCC8004ED8D8 /* CircleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRouter.swift; sourceTree = "<group>"; };
 		B575FE5C23A9CCC8004ED8D8 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
@@ -186,30 +152,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B53C7AAC23A8AC9600EA40D8 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				B53C7AAD23A8ACA400EA40D8 /* RegisterPresenter.swift */,
-				B53C7AAE23A8ACA400EA40D8 /* RegisterRouter.swift */,
-				B53C7AAF23A8ACA400EA40D8 /* RegisterViewController.swift */,
-				B53C7AB023A8ACA400EA40D8 /* RegisterProtocols.swift */,
-				B53C7AB123A8ACA400EA40D8 /* RegisterViewController.xib */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		B53C7AB723A8AE8300EA40D8 /* ForgotPassword */ = {
-			isa = PBXGroup;
-			children = (
-				B53C7AC223A8AEB900EA40D8 /* ForgotPasswordPresenter.swift */,
-				B53C7AC323A8AEB900EA40D8 /* ForgotPasswordRouter.swift */,
-				B53C7AC423A8AEB900EA40D8 /* ForgotPasswordViewController.swift */,
-				B53C7AC523A8AEB900EA40D8 /* ForgotPasswordProtocols.swift */,
-				B53C7AC623A8AEB900EA40D8 /* ForgotPasswordViewController.xib */,
-			);
-			path = ForgotPassword;
-			sourceTree = "<group>";
-		};
 		B53C7ACC23A8B50D00EA40D8 /* Book */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,28 +198,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B575FE4923A9C443004ED8D8 /* City */ = {
-			isa = PBXGroup;
-			children = (
-				B575FE5423A9C5C0004ED8D8 /* Cell */,
-				B575FE4A23A9C457004ED8D8 /* SearchCityPresenter.swift */,
-				B575FE4B23A9C457004ED8D8 /* SearchCityRouter.swift */,
-				B575FE4C23A9C457004ED8D8 /* SearchCityViewController.swift */,
-				B575FE4D23A9C457004ED8D8 /* SearchCityProtocols.swift */,
-				B575FE4E23A9C457004ED8D8 /* SearchCityViewController.xib */,
-			);
-			path = City;
-			sourceTree = "<group>";
-		};
-		B575FE5423A9C5C0004ED8D8 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B575FE5523A9C5DA004ED8D8 /* SearchCityCell.swift */,
-				B575FE5623A9C5DA004ED8D8 /* SearchCityCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 		B575FE5923A9CC5D004ED8D8 /* Circle */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,10 +238,7 @@
 				B559D16423AB1CE900824D1F /* Model */,
 				B559D15123AB156400824D1F /* Components */,
 				B575FE5923A9CC5D004ED8D8 /* Circle */,
-				B575FE4923A9C443004ED8D8 /* City */,
 				B53C7ACC23A8B50D00EA40D8 /* Book */,
-				B53C7AB723A8AE8300EA40D8 /* ForgotPassword */,
-				B53C7AAC23A8AC9600EA40D8 /* Register */,
 				B5FD1FFA23A71FDF005F6AEA /* Login */,
 				B5FD1FC723A71FD5005F6AEA /* AppDelegate.swift */,
 				B5FD1FC923A71FD5005F6AEA /* SceneDelegate.swift */,
@@ -473,11 +390,7 @@
 			files = (
 				B559D15923AB1B7700824D1F /* CellBook.xib in Resources */,
 				B5FD1FD723A71FD7005F6AEA /* LaunchScreen.storyboard in Resources */,
-				B575FE5823A9C5DA004ED8D8 /* SearchCityCell.xib in Resources */,
-				B575FE5323A9C457004ED8D8 /* SearchCityViewController.xib in Resources */,
 				B5FD1FD423A71FD7005F6AEA /* Assets.xcassets in Resources */,
-				B53C7AB623A8ACA400EA40D8 /* RegisterViewController.xib in Resources */,
-				B53C7ACB23A8AEB900EA40D8 /* ForgotPasswordViewController.xib in Resources */,
 				B559D16323AB1C4200824D1F /* BookViewController.xib in Resources */,
 				B575FE6323A9CCC8004ED8D8 /* CircleViewController.xib in Resources */,
 				B559D15023AB151700824D1F /* LoginViewController.xib in Resources */,
@@ -576,33 +489,20 @@
 			files = (
 				B559D15423AB159600824D1F /* UIView+extension.swift in Sources */,
 				B559D14E23AB151700824D1F /* LoginViewController.swift in Sources */,
-				B575FE5223A9C457004ED8D8 /* SearchCityProtocols.swift in Sources */,
-				B53C7AB523A8ACA400EA40D8 /* RegisterProtocols.swift in Sources */,
-				B53C7ACA23A8AEB900EA40D8 /* ForgotPasswordProtocols.swift in Sources */,
 				B559D15823AB1B7700824D1F /* CellBook.swift in Sources */,
 				B575FE5F23A9CCC8004ED8D8 /* CirclePresenter.swift in Sources */,
-				B53C7AB423A8ACA400EA40D8 /* RegisterViewController.swift in Sources */,
-				B575FE5023A9C457004ED8D8 /* SearchCityRouter.swift in Sources */,
-				B53C7AB323A8ACA400EA40D8 /* RegisterRouter.swift in Sources */,
 				B559D14C23AB151700824D1F /* LoginPresenter.swift in Sources */,
 				B5FD1FCC23A71FD5005F6AEA /* ViewController.swift in Sources */,
 				B5FD1FC823A71FD5005F6AEA /* AppDelegate.swift in Sources */,
 				B559D15F23AB1C4200824D1F /* BookPresenter.swift in Sources */,
-				B575FE5123A9C457004ED8D8 /* SearchCityViewController.swift in Sources */,
-				B575FE4F23A9C457004ED8D8 /* SearchCityPresenter.swift in Sources */,
 				B575FE6123A9CCC8004ED8D8 /* CircleViewController.swift in Sources */,
 				B559D14D23AB151700824D1F /* LoginRouter.swift in Sources */,
 				B559D16023AB1C4200824D1F /* BookRouter.swift in Sources */,
 				B559D16623AB1CFA00824D1F /* BookEntity.swift in Sources */,
-				B53C7AB223A8ACA400EA40D8 /* RegisterPresenter.swift in Sources */,
 				B5FD1FCA23A71FD5005F6AEA /* SceneDelegate.swift in Sources */,
 				B575FE6023A9CCC8004ED8D8 /* CircleRouter.swift in Sources */,
 				B559D16223AB1C4200824D1F /* BookProtocols.swift in Sources */,
-				B53C7AC823A8AEB900EA40D8 /* ForgotPasswordRouter.swift in Sources */,
 				B559D14F23AB151700824D1F /* LoginProtocols.swift in Sources */,
-				B53C7AC923A8AEB900EA40D8 /* ForgotPasswordViewController.swift in Sources */,
-				B575FE5723A9C5DA004ED8D8 /* SearchCityCell.swift in Sources */,
-				B53C7AC723A8AEB900EA40D8 /* ForgotPasswordPresenter.swift in Sources */,
 				B559D16123AB1C4200824D1F /* BookViewController.swift in Sources */,
 				B5FD1FD223A71FD5005F6AEA /* TestMVP.xcdatamodeld in Sources */,
 				B575FE6223A9CCC8004ED8D8 /* CircleProtocols.swift in Sources */,
