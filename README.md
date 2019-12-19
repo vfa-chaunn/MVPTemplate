@@ -8,16 +8,21 @@ When you decide to use MVP architecture in your project, it is very tired create
 * Protocol: file contains protocol.
 * Present: file use to process logic and data.
 
+## Requirement
+
+* Swift > 5.
+* Xcode
+
 ## Installation
 
-### Download or clone file
+### Download or clone file.
 
 - Go to folder MVP Template.
 
 ### Folder MVPTemplate
 ![](/assets/MVPFile.png)
 
-### Using script (easy)
+### Using script to install (easy)
 Only need execute this command in terminal:
 ```swift
 sudo swift install.swift
@@ -28,7 +33,7 @@ Message when run successed:
 
 If all it's ok you now could find your template in Xcode.
 
-### Manual
+### Manual (move folder MVP File.xctemplate to below url)
 Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
 `Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "Module MVP File.xctemplate" file. Now you can find your template in Xcode.
 
