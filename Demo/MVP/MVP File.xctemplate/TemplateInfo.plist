@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Basic MVP model template. Create view, protocol, presenter with router</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>MVPModule</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Name of module that you need create</string>
+			<key>Default</key>
+			<string></string>
+			<key>Identifier</key>
+			<string>mvpModuleName</string>
+			<key>Name</key>
+			<string>Module name</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_mvpModuleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>InputOutput</string>
+			<key>Name</key>
+			<string>Divide Interactor protocol (Input &amp; Output)</string>
+			<!-- <key>Description</key>
+			<string>Divide Interactor protocol (Input &amp; Output)</string> -->
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<!-- <string>true</string>
+			<key>NotPersisted</key> -->
+			<true/>
+		</dict>
+	</array>
+	<key>Template Author</key>
+	<string>Nguyen Ngoc Chau - @Vitalify</string>
+</dict>
+</plist>
