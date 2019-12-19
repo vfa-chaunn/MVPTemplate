@@ -46,7 +46,7 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 ## MVP diagram overview
 ![Preview](/assets/mvp_diagram.png)
 
-#DEMO
+## Demo Folder
 * Open Demo into folder MVP Template to see example.
 
 
