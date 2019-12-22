@@ -1,3 +1,20 @@
+<<<<<<< Updated upstream
 PODFILE CHECKSUM: dd520d1c8b1f8f3ede15d90737ea9cd2f99fbd89
+=======
+PODS:
+  - Alamofire (4.9.1)
+
+DEPENDENCIES:
+  - Alamofire
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+
+PODFILE CHECKSUM: 8b0ff57ef3103d139bd01e1f2c580f5491dd8e9b
+>>>>>>> Stashed changes
 
 COCOAPODS: 1.8.4

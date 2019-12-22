@@ -3,6 +3,11 @@
 
 target 'TestMVP' do
   # Comment the next line if you don't want to use dynamic frameworks
+<<<<<<< Updated upstream
+=======
+  
+  pod 'Alamofire'
+>>>>>>> Stashed changes
   use_frameworks!
 
   # Pods for TestMVP
