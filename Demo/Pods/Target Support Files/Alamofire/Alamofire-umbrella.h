@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TestMVP_TestMVPUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TestMVP_TestMVPUITestsVersionString[];
+FOUNDATION_EXPORT double AlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireVersionString[];
 
