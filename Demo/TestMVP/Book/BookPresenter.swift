@@ -15,21 +15,20 @@ class BookPresenter: BookPresenterProtocol {
     weak private var view: BookViewProtocol?
     private let router: BookWireframeProtocol
     
-    var books: [BookEntity]?
+    var movies: [MovieTopRateEntity]?
     
     init(interface: BookViewProtocol, router: BookWireframeProtocol) {
         self.view = interface
         self.router = router
     }
 
-    func getListBook() {
-        let session = URLSession.shared
-        let url = URL(string: "https://jsonplaceholder.typicode.com/todos")!
-        session.dataTask(with: url) { (data, response, error) in
-            if let books = try? JSONDecoder().decode([BookEntity].self, from: data!) {
-                self.books = books
-                self.view?.didGetListBook()
-            }
-        }.resume()
+    func getListMovie() {
+        Provider.shared.movieService.getTopRated(page: 1, successed: { [weak self] (listMovie) in
+            guard let self = self else {return}
+            self.movies = listMovie
+            self.view?.didGetListMovie()
+        }) { (error) in
+            
+        }
     }
 }

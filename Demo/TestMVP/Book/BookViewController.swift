@@ -20,13 +20,13 @@ class BookViewController: UIViewController {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "CellBook", bundle: nil), forCellReuseIdentifier: "CellBook")
         tableView.dataSource = self
-        self.presenter?.getListBook()
+        self.presenter?.getListMovie()
     }
 
 }
 
 extension BookViewController : BookViewProtocol {
-    func didGetListBook() {
+    func didGetListMovie() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
@@ -39,12 +39,12 @@ extension BookViewController : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.presenter?.books?.count ?? 0
+        return self.presenter?.movies?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellBook", for: indexPath) as? CellBook, let dataCell = self.presenter?.books?[indexPath.row] {
-            cell.setupCell(data: dataCell)
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellBook", for: indexPath) as? CellBook, let dataCell = self.presenter?.movies?[indexPath.row] {
+            cell.setupCell(movie: dataCell)
             return cell
         }
         return UITableViewCell()

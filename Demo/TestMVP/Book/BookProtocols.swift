@@ -16,12 +16,12 @@ protocol BookWireframeProtocol: class {
 }
 //MARK: Presenter -
 protocol BookPresenterProtocol: class {
-    var books : [BookEntity]? { get }
-    func getListBook()
+    var movies : [MovieTopRateEntity]? { get }
+    func getListMovie()
 }
 
 //MARK: View -
 protocol BookViewProtocol: class {
-    func didGetListBook()
     var presenter: BookPresenterProtocol?  { get set }
+    func didGetListMovie()
 }

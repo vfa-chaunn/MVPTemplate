@@ -21,4 +21,10 @@ class CellBook: UITableViewCell {
         let isChecked = data.completed ?? false
         viewCheck.backgroundColor = isChecked ? UIColor.blue : UIColor.red
     }
+    
+    func setupCell(movie: MovieTopRateEntity){
+        self.lblName.text = movie.title ?? ""
+        let isChecked = movie.adult ?? false
+        viewCheck.backgroundColor = movie.adult ?? false ? UIColor.blue : UIColor.red
+    }
 }

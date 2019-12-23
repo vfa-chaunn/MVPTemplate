@@ -22,6 +22,15 @@
 		B559D16223AB1C4200824D1F /* BookProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D15D23AB1C4200824D1F /* BookProtocols.swift */; };
 		B559D16323AB1C4200824D1F /* BookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B559D15E23AB1C4200824D1F /* BookViewController.xib */; };
 		B559D16623AB1CFA00824D1F /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D16523AB1CFA00824D1F /* BookEntity.swift */; };
+		B56F3CB123B056120031ABD4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB023B056120031ABD4 /* Provider.swift */; };
+		B56F3CB323B058070031ABD4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB223B058070031ABD4 /* Network.swift */; };
+		B56F3CB523B0585E0031ABD4 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB423B0585E0031ABD4 /* BaseRouter.swift */; };
+		B56F3CB723B05FAA0031ABD4 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB623B05FAA0031ABD4 /* BaseResponse.swift */; };
+		B56F3CBA23B0610A0031ABD4 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB923B0610A0031ABD4 /* MovieRouter.swift */; };
+		B56F3CBD23B062900031ABD4 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CBC23B062900031ABD4 /* MovieService.swift */; };
+		B56F3CBF23B0698A0031ABD4 /* MapperData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CBE23B0698A0031ABD4 /* MapperData.swift */; };
+		B56F3CC223B0790D0031ABD4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CC123B0790D0031ABD4 /* APIError.swift */; };
+		B56F3CC623B07F0D0031ABD4 /* MovieTopRateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CC523B07F0D0031ABD4 /* MovieTopRateEntity.swift */; };
 		B575FE5F23A9CCC8004ED8D8 /* CirclePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5A23A9CCC8004ED8D8 /* CirclePresenter.swift */; };
 		B575FE6023A9CCC8004ED8D8 /* CircleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5B23A9CCC8004ED8D8 /* CircleRouter.swift */; };
 		B575FE6123A9CCC8004ED8D8 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE5C23A9CCC8004ED8D8 /* CircleViewController.swift */; };
@@ -71,6 +80,15 @@
 		B559D15D23AB1C4200824D1F /* BookProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookProtocols.swift; sourceTree = "<group>"; };
 		B559D15E23AB1C4200824D1F /* BookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookViewController.xib; sourceTree = "<group>"; };
 		B559D16523AB1CFA00824D1F /* BookEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
+		B56F3CB023B056120031ABD4 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		B56F3CB223B058070031ABD4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B56F3CB423B0585E0031ABD4 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		B56F3CB623B05FAA0031ABD4 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		B56F3CB923B0610A0031ABD4 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		B56F3CBC23B062900031ABD4 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		B56F3CBE23B0698A0031ABD4 /* MapperData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperData.swift; sourceTree = "<group>"; };
+		B56F3CC123B0790D0031ABD4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		B56F3CC523B07F0D0031ABD4 /* MovieTopRateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTopRateEntity.swift; sourceTree = "<group>"; };
 		B575FE5A23A9CCC8004ED8D8 /* CirclePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePresenter.swift; sourceTree = "<group>"; };
 		B575FE5B23A9CCC8004ED8D8 /* CircleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRouter.swift; sourceTree = "<group>"; };
 		B575FE5C23A9CCC8004ED8D8 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +200,54 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B56F3CAF23B054D10031ABD4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B56F3CC323B07EF50031ABD4 /* Response */,
+				B56F3CBB23B0627F0031ABD4 /* Services */,
+				B56F3CB823B05FF50031ABD4 /* Router */,
+				B56F3CB023B056120031ABD4 /* Provider.swift */,
+				B56F3CB223B058070031ABD4 /* Network.swift */,
+				B56F3CB423B0585E0031ABD4 /* BaseRouter.swift */,
+				B56F3CB623B05FAA0031ABD4 /* BaseResponse.swift */,
+				B56F3CBE23B0698A0031ABD4 /* MapperData.swift */,
+				B56F3CC123B0790D0031ABD4 /* APIError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B56F3CB823B05FF50031ABD4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B56F3CB923B0610A0031ABD4 /* MovieRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B56F3CBB23B0627F0031ABD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B56F3CBC23B062900031ABD4 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B56F3CC323B07EF50031ABD4 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				B56F3CC423B07EFD0031ABD4 /* Movie */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		B56F3CC423B07EFD0031ABD4 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				B56F3CC523B07F0D0031ABD4 /* MovieTopRateEntity.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
 		B575FE5923A9CC5D004ED8D8 /* Circle */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +285,7 @@
 		B5FD1FC623A71FD5005F6AEA /* TestMVP */ = {
 			isa = PBXGroup;
 			children = (
+				B56F3CAF23B054D10031ABD4 /* Network */,
 				B559D16423AB1CE900824D1F /* Model */,
 				B559D15123AB156400824D1F /* Components */,
 				B575FE5923A9CC5D004ED8D8 /* Circle */,
@@ -429,10 +496,17 @@
 				B559D14E23AB151700824D1F /* LoginViewController.swift in Sources */,
 				B559D15823AB1B7700824D1F /* CellBook.swift in Sources */,
 				B575FE5F23A9CCC8004ED8D8 /* CirclePresenter.swift in Sources */,
+				B56F3CBF23B0698A0031ABD4 /* MapperData.swift in Sources */,
 				B559D14C23AB151700824D1F /* LoginPresenter.swift in Sources */,
+				B56F3CBA23B0610A0031ABD4 /* MovieRouter.swift in Sources */,
+				B56F3CB323B058070031ABD4 /* Network.swift in Sources */,
+				B56F3CC223B0790D0031ABD4 /* APIError.swift in Sources */,
 				B5FD1FCC23A71FD5005F6AEA /* ViewController.swift in Sources */,
+				B56F3CB523B0585E0031ABD4 /* BaseRouter.swift in Sources */,
 				B5FD1FC823A71FD5005F6AEA /* AppDelegate.swift in Sources */,
+				B56F3CC623B07F0D0031ABD4 /* MovieTopRateEntity.swift in Sources */,
 				B559D15F23AB1C4200824D1F /* BookPresenter.swift in Sources */,
+				B56F3CB123B056120031ABD4 /* Provider.swift in Sources */,
 				B575FE6123A9CCC8004ED8D8 /* CircleViewController.swift in Sources */,
 				B559D14D23AB151700824D1F /* LoginRouter.swift in Sources */,
 				B559D16023AB1C4200824D1F /* BookRouter.swift in Sources */,
@@ -444,6 +518,8 @@
 				B559D16123AB1C4200824D1F /* BookViewController.swift in Sources */,
 				B5FD1FD223A71FD5005F6AEA /* TestMVP.xcdatamodeld in Sources */,
 				B575FE6223A9CCC8004ED8D8 /* CircleProtocols.swift in Sources */,
+				B56F3CB723B05FAA0031ABD4 /* BaseResponse.swift in Sources */,
+				B56F3CBD23B062900031ABD4 /* MovieService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
