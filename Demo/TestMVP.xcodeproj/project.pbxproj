@@ -21,7 +21,6 @@
 		B559D16123AB1C4200824D1F /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D15C23AB1C4200824D1F /* BookViewController.swift */; };
 		B559D16223AB1C4200824D1F /* BookProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D15D23AB1C4200824D1F /* BookProtocols.swift */; };
 		B559D16323AB1C4200824D1F /* BookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B559D15E23AB1C4200824D1F /* BookViewController.xib */; };
-		B559D16623AB1CFA00824D1F /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D16523AB1CFA00824D1F /* BookEntity.swift */; };
 		B56F3CB123B056120031ABD4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB023B056120031ABD4 /* Provider.swift */; };
 		B56F3CB323B058070031ABD4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB223B058070031ABD4 /* Network.swift */; };
 		B56F3CB523B0585E0031ABD4 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3CB423B0585E0031ABD4 /* BaseRouter.swift */; };
@@ -79,7 +78,6 @@
 		B559D15C23AB1C4200824D1F /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		B559D15D23AB1C4200824D1F /* BookProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookProtocols.swift; sourceTree = "<group>"; };
 		B559D15E23AB1C4200824D1F /* BookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookViewController.xib; sourceTree = "<group>"; };
-		B559D16523AB1CFA00824D1F /* BookEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
 		B56F3CB023B056120031ABD4 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		B56F3CB223B058070031ABD4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		B56F3CB423B0585E0031ABD4 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
@@ -192,14 +190,6 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		B559D16423AB1CE900824D1F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B559D16523AB1CFA00824D1F /* BookEntity.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B56F3CAF23B054D10031ABD4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +250,16 @@
 			path = Circle;
 			sourceTree = "<group>";
 		};
+		B5DE941323B3151700430A92 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B575FE5923A9CC5D004ED8D8 /* Circle */,
+				B5FD1FFA23A71FDF005F6AEA /* Login */,
+				B53C7ACC23A8B50D00EA40D8 /* Book */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		B5FD1FBB23A71FD5005F6AEA = {
 			isa = PBXGroup;
 			children = (
@@ -285,12 +285,9 @@
 		B5FD1FC623A71FD5005F6AEA /* TestMVP */ = {
 			isa = PBXGroup;
 			children = (
+				B5DE941323B3151700430A92 /* Modules */,
 				B56F3CAF23B054D10031ABD4 /* Network */,
-				B559D16423AB1CE900824D1F /* Model */,
 				B559D15123AB156400824D1F /* Components */,
-				B575FE5923A9CC5D004ED8D8 /* Circle */,
-				B53C7ACC23A8B50D00EA40D8 /* Book */,
-				B5FD1FFA23A71FDF005F6AEA /* Login */,
 				B5FD1FC723A71FD5005F6AEA /* AppDelegate.swift */,
 				B5FD1FC923A71FD5005F6AEA /* SceneDelegate.swift */,
 				B5FD1FCB23A71FD5005F6AEA /* ViewController.swift */,
@@ -510,7 +507,6 @@
 				B575FE6123A9CCC8004ED8D8 /* CircleViewController.swift in Sources */,
 				B559D14D23AB151700824D1F /* LoginRouter.swift in Sources */,
 				B559D16023AB1C4200824D1F /* BookRouter.swift in Sources */,
-				B559D16623AB1CFA00824D1F /* BookEntity.swift in Sources */,
 				B5FD1FCA23A71FD5005F6AEA /* SceneDelegate.swift in Sources */,
 				B575FE6023A9CCC8004ED8D8 /* CircleRouter.swift in Sources */,
 				B559D16223AB1C4200824D1F /* BookProtocols.swift in Sources */,
